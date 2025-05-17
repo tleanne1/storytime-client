@@ -32,7 +32,14 @@ npm install
 npm run dev
 ```
 
+---
+
+## 👩‍🍳 Mock Client Testimonial
+
 <img width="1710" alt="storytime-client" src="https://github.com/user-attachments/assets/1a653713-214c-4819-9ee8-997b7392e14e" />
+
+> “Tracey brought BloomBakery to life with elegance and warmth. The site is exactly what I imagined — soft, joyful, and simple for customers to use. My favorite part is the custom order form. I feel like I finally have a home for my brand!”  
+> — *Mock Bakery Owner, Dallas TX*
 
 ---
 
