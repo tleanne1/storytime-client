@@ -3,6 +3,8 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Books from "./sections/Books";
 import Contact from "./sections/Contact";
+import Testimonials from "./sections/Testimonials";
+
 
 
 const App = () => {
@@ -12,6 +14,7 @@ const App = () => {
       <About />
       <Books />
       <Contact />
+      <Testimonials />
     </main>
   );
 };
