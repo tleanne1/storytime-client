@@ -2,7 +2,10 @@
 
 A playful and responsive website designed for a fictional children’s book author. Built using **React**, **Tailwind CSS**, and **Vite**, this project highlights soft design aesthetics, animated sections, book showcases, and testimonial feedback to engage parents and young readers alike.
 
-![StoryTime Kids Screenshot](./public/storytime-client.png)
+🔗 **Live Site:** [bloombakery.vercel.app](https://bloombakery.vercel.app)  
+💻 **Portfolio:** [tleanne.dev](https://tleanne.dev)
+
+---
 
 ## ✨ Features
 
@@ -13,6 +16,8 @@ A playful and responsive website designed for a fictional children’s book auth
 - 🎨 Custom soft pastel color palette
 - ✅ Fully responsive and mobile-friendly
 
+---
+
 ## 🔧 Tech Stack
 
 - React
@@ -21,16 +26,28 @@ A playful and responsive website designed for a fictional children’s book auth
 - Framer Motion
 - React Scroll
 
-## 🚀 Live Demo
+---
 
-[Visit Website](https://storytime-client.vercel.app)
+## 🌸 Color Palette
+
+| Name   | Hex       | Use                     |
+|--------|-----------|--------------------------|
+| Rose   | `#F5E8F4` | Backgrounds, overlays    |
+| Blush  | `#F7EBFD` | Cards, testimonials      |
+| Cream  | `#F7F6E6` | Body background          |
+| Choco  | `#5A4E4D` | Primary text/buttons     |
+| White  | `#FFFFFF` | Contrast base            |
+
+---
 
 ## 📁 Project Setup
 
-```bash
-npm install
-npm run dev
-```
+src/
+├── assets/ # Images and backgrounds
+├── components/ # Navbar, Footer
+├── sections/ # Hero, About, Books, Testimonials, Contact
+├── App.jsx
+└── index.css
 
 ---
 
