@@ -18,7 +18,7 @@ const About = () => {
             Meet the Author
           </h2>
           <p className="text-darkblue text-base leading-relaxed mb-4">
-            Hi, I’m Emma Joy — a children’s author who believes stories shape how we see the world. Through colorful characters and cozy adventures, I write to spark imagination, kindness, and giggles.
+            Hi, I’m Edmond Joy — a children’s author who believes stories shape how we see the world. Through colorful characters and cozy adventures, I write to spark imagination, kindness, and giggles.
           </p>
           <p className="text-darkblue text-base leading-relaxed">
             Whether it’s bedtime or playtime, my books are meant to be a friend your little ones return to again and again.

@@ -26,7 +26,7 @@ const Books = () => {
     <section id="books" className="bg-cream py-20 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-darkblue mb-3">
-          Books by Emma Joy
+          Books by Edmond Joy
         </h2>
         <p className="text-darkblue text-base max-w-xl mx-auto">
           Wholesome reads that inspire wonder, kindness, and giggles — perfect for ages 3 to 7.
