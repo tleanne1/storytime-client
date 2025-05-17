@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scroll across the site */
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   html, body {
-    @apply bg-cream text-darkblue;
+    @apply bg-cream text-darkblue font-sans;
+  }
+
+  a {
+    @apply transition-colors duration-300;
+  }
+
+  button {
+    @apply font-semibold transition duration-300;
   }
 }

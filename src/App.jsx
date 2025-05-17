@@ -5,11 +5,13 @@ import Books from "./sections/Books";
 import Contact from "./sections/Contact";
 import Testimonials from "./sections/Testimonials";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 
 const App = () => {
   return (
     <main className="font-sans">
+      <Navbar />
       <Hero />
       <About />
       <Books />
