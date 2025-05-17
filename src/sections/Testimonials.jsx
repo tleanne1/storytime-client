@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
@@ -18,6 +19,15 @@ const testimonials = [
   },
 ];
 
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" },
+  }),
+};
+
 const Testimonials = () => {
   return (
     <section id="testimonials" className="bg-cream py-20 px-6 md:px-20">
@@ -32,13 +42,18 @@ const Testimonials = () => {
 
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {testimonials.map((t, index) => (
-          <div
+          <motion.div
             key={index}
+            custom={index}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
             className="bg-white rounded-xl shadow-md p-6 text-left"
           >
             <p className="text-darkblue italic mb-4">“{t.quote}”</p>
             <p className="font-semibold text-blue">{t.name}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
